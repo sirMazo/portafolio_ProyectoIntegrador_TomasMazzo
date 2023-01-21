@@ -1,9 +1,95 @@
-#bar{
-    background-color: rgb(202, 202, 202);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* ALL */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.banner{
+    background-image: url(./../../../assets/banner.jpg);
+    background-size: 100%;
+    background-position: 40%;
+    height: 430px; 
+}
+.header{
+    background: linear-gradient(to top, transparent, rgba(27, 27, 27, 0.534));
+    position: sticky;
+    padding: 5px 1.5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    height: 75px; 
 }
 
-#header{
-    margin: 5px;
-    margin-top: 3px;
-    padding: 5px;
+
+/* SOCIAL AND CONTACT */
+.header .nav-links li{
+
+    display: inline-block;
+    padding: 0 10px;
+    transition: all 0.1s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    color: #ffd900;
+}
+
+
+/* BUTTON LOGIN */
+.header .login{
+    font-weight: 700;
+    font-size: 10px;
+    position: relative;
+    color: #ffd900;
+    background: #ffff;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 25px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.header .login:before{
+    content: "";
+    position: absolute;
+    background: #ffd900;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.header .login:hover{
+    color: #ffff;
+}
+
+.header .login:before{
+    top: 100%;
+    left: 100%;
+    transition: 0.5s;
+}
+
+.header .login:hover:before{
+    top: -30px;
+    left: -30px;
+}
+
+.header .login:active:before{
+    background: #caac02;
+    transition: 0s;  
 }

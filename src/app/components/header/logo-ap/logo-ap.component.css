@@ -1,3 +1,9 @@
-#logoAP{
+.logoAP{
     width: 150px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logoAP:hover{
+    transform: scale(1.1);
 }

@@ -1,22 +1,38 @@
-<div id="header" >
-    <div id="bar">
+<div class="banner">
+    <div class="header">
+
         <!-- Logo de ArgentinaPrograma -->
-        <app-logo-ap></app-logo-ap>
-        
-        <!-- Redes sociales -->
-        <app-social></app-social>
-        <div>
-            <!-- Login button -->
-            <app-login></app-login>
+        <app-logo-ap class="logoAP"></app-logo-ap>
+
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="#sobremi">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#curriculum">Curriculum</a>
+                </li>
+                <li>
+                    <a href="#portafolio">Portafólio</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <app-login class="login"></app-login>
+
+        <div class="nav-responsive">
+            <i class="fa-solid fa-bars"></i>
         </div>
-
-
     </div>
+    <app-acerca-de></app-acerca-de>
 
-    <div>
-        <app-banner></app-banner>
-    </div>
-
-    <p>Headers works! </p>
 </div>
+
+
+
 
