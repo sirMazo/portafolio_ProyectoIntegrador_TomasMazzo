@@ -1,3 +1,49 @@
 .menu{
     color: rgb(51, 51, 51);
 }
+
+/* BUTTON LOGIN */
+.login{
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+    color: rgb(51, 51, 51);
+    background: #ffff;
+    margin-top: -5px;
+    margin-left: 570px;
+    border: 2px solid white;
+    border-radius: 25px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.login:before{
+    content: "";
+    position: absolute;
+    background: #ffd900;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.login:hover{
+    color: rgb(255, 255, 255);
+}
+
+.login:before{
+    top: 100%;
+    left: 100%;
+    transition: 0.5s;
+}
+
+.login:hover:before{
+    top: -30px;
+    left: -30px;
+}
+
+.login:active:before{
+    background: #caac02;
+    transition: 0s;  
+}

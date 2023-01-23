@@ -1,0 +1,21 @@
+/* SOCIAL AND CONTACT */
+.nav-links li{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    transition: all 0.1s;
+}
+
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.nav-links a{
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: #ffd900;
+}

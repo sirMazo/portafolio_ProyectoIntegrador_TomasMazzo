@@ -1,35 +1,28 @@
-<div class="banner">
+<div class="">
+
+    <!-- MENÚ ENCABEZADO -->
     <div class="header">
 
-        <!-- Logo de ArgentinaPrograma -->
+        <!-- LOGO AP -->
         <app-logo-ap class="logoAP"></app-logo-ap>
 
-        <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="#sobremi">Sobre mí</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#curriculum">Curriculum</a>
-                </li>
-                <li>
-                    <a href="#portafolio">Portafólio</a>
-                </li>
-                <li>
-                    <a href="#contacto">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <app-login class="login"></app-login>
+        <!-- SECCIONES DEL ENCABEZADO -->
+        <app-nav-links></app-nav-links>
 
+        <!-- BOTÓN DE LOGIN -->
+        <app-login></app-login>
+
+        <!-- BOTÓN RESPONSIVE -->
         <div class="nav-responsive">
             <i class="fa-solid fa-bars"></i>
         </div>
     </div>
+    <!-- PERFIL Y CONTACTO -->
+    <app-inicio></app-inicio>
+
+    <!-- ACERCA DE MI -->
     <app-acerca-de></app-acerca-de>
+
 
 </div>
 
