@@ -1,29 +1,32 @@
-<div class="">
-
+<div>
     <!-- MENÚ ENCABEZADO -->
-    <div class="header">
+    <div class="contenedor-header">
+        <header>
+            <!-- LOGO AP -->
+            <app-logo-ap></app-logo-ap>
+            
+            <nav id="nav">
+                <!-- SECCIONES DEL ENCABEZADO -->
+                <app-nav-links></app-nav-links>
+                
+            </nav>
 
-        <!-- LOGO AP -->
-        <app-logo-ap class="logoAP"></app-logo-ap>
+            <!-- BOTÓN DE LOGIN -->
+            <li><app-login></app-login></li>
 
-        <!-- SECCIONES DEL ENCABEZADO -->
-        <app-nav-links></app-nav-links>
-
-        <!-- BOTÓN DE LOGIN -->
-        <app-login></app-login>
-
-        <!-- BOTÓN RESPONSIVE -->
-        <div class="nav-responsive">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+            <!-- BOTÓN RESPONSIVE -->
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
     </div>
-    <!-- PERFIL Y CONTACTO -->
+
+
+    <!-- INICIO -->
     <app-inicio></app-inicio>
 
-    <!-- ACERCA DE MI -->
+    <!-- SOBRE MI -->
     <app-acerca-de></app-acerca-de>
-
-
 </div>
 
 

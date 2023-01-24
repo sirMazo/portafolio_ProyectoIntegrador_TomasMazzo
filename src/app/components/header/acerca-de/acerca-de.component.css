@@ -82,6 +82,7 @@
 }
 
 .acercaDe .fila .col .contenedor-intereses .intereses:hover{
+    color: #1e2326;
     background-color: #ffd900;
 }
 .acercaDe .fila .col .contenedor-intereses .intereses i{
