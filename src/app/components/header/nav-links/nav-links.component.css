@@ -1,4 +1,8 @@
 /* SOCIAL AND CONTACT */
+ ul{
+    margin-right: 100px;
+}
+
 .nav-links li{
     margin-top: 30px;
     display: inline-block;

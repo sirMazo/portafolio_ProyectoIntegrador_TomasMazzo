@@ -13,7 +13,7 @@
         to top,
         rgba(30, 35, 38, 0.466),
         rgba(30, 35, 38, 0.466)
-    ), url(../../../../assets/banner.jpg);
+    ), url(../../../assets/banner.jpg);
     background-size: cover;
     background-position: center;
     height: 720px;
@@ -34,12 +34,15 @@
     padding: 20px;
     text-align: center;
     transition: 0.2s;
+    height: 360px;
 
 }.cards:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
 }
 
 /* STYLE IMAGEN */
+
+
 .card-one img{
     border: 3px solid #ffffff;
     background: #ffffff;
@@ -69,13 +72,13 @@
 /* TITULOS */
 .card-one .titulos ul {
     list-style-type: none;
-    padding: 6px;
+    padding: 4px;
+    display:inline-flex;
 }
   
 .card-one .titulos li {
+    padding: 3px;
     font-size: 13px;
-    padding: 2px;
-    float: left;
     transition: 0.1s;
     cursor: pointer;
 
@@ -151,7 +154,7 @@
 .fa-github:hover,
 .fa-github:focus {
   color: #000;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* CONTACTO */
@@ -244,34 +247,21 @@
 }
 
 @media screen and (max-width: 1085px){
+    .cards {
+        max-height: 300px;
+    }
     .background{
         background: linear-gradient(
             to top,
             rgba(30, 35, 38, 0.466),
             rgba(30, 35, 38, 0.466)
-        ), url(../../../../assets/bannerDos.jpg);
+        ), url(../../../assets/bannerDos.jpg);
         background-size: cover;
         background-position: center;
-        margin-top: -70px;
         padding: 0px;
     }
 
-    .columna {
-        margin-top: 100px;
-        padding: 5px 55px;
-        width: 50%;
-    }
 
-    .card-one{
-        margin-right: 120px;
-    }
-
-    .card-two{
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width: 980px){
     .columna {
         margin-top: 132px;
         padding: 0px 10px;

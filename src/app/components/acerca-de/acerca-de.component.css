@@ -52,14 +52,14 @@
 }
 
 .acercaDe .fila .col ul li{
-    margin: 12px 0;
+    margin: 8px 0;
     margin-left: -30px;
 }
 
 .acercaDe .fila .col ul li strong{
     display: inline-block;
     color: #ffd900;
-    width: 130px;
+    width: 180px;
 }
 
 .acercaDe .fila .col .contenedor-intereses{
